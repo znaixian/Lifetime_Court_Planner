@@ -1,0 +1,38 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Database files
+*.db
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+*.log
+
+# Ignore Arduino files
+*.ino
+
+# Ignore URDF files
+*.urdf
+
+# Ignore specific files we don't want to track
+viewer_urdf.py
+xarm6_robot.urdf
+bluetooth_servo.ino
+lcd_monitor.ino
+led_blink.ino
+motion_servo.ino
+multi_servo_dance.ino
+sero_button_control.ino
+servo_memory.ino
+servo_sweep.ino
+servo_ultrasonic.ino
+temp_controlled_servo.ino
+web_servo.ino
